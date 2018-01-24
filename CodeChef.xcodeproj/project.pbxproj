@@ -10,6 +10,9 @@
 		ECF159272018FD1000C3C0C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF159262018FD1000C3C0C6 /* main.cpp */; };
 		ECF1592E2018FD3C00C3C0C6 /* cielab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1592D2018FD3C00C3C0C6 /* cielab.cpp */; };
 		ECF159302019089400C3C0C6 /* cleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1592F2019089400C3C0C6 /* cleanup.cpp */; };
+		ECF1593220190F0400C3C0C6 /* johny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1593120190F0400C3C0C6 /* johny.cpp */; };
+		ECF1593420190F3500C3C0C6 /* horses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1593320190F3500C3C0C6 /* horses.cpp */; };
+		ECF159372019136B00C3C0C6 /* conflip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF159362019136B00C3C0C6 /* conflip.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,9 @@
 		ECF159262018FD1000C3C0C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ECF1592D2018FD3C00C3C0C6 /* cielab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cielab.cpp; sourceTree = "<group>"; };
 		ECF1592F2019089400C3C0C6 /* cleanup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cleanup.cpp; sourceTree = "<group>"; };
+		ECF1593120190F0400C3C0C6 /* johny.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = johny.cpp; sourceTree = "<group>"; };
+		ECF1593320190F3500C3C0C6 /* horses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = horses.cpp; sourceTree = "<group>"; };
+		ECF159362019136B00C3C0C6 /* conflip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = conflip.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,22 @@
 		ECF159252018FD1000C3C0C6 /* CodeChef */ = {
 			isa = PBXGroup;
 			children = (
+				ECF1593520190F4800C3C0C6 /* easy */,
 				ECF159262018FD1000C3C0C6 /* main.cpp */,
-				ECF1592D2018FD3C00C3C0C6 /* cielab.cpp */,
-				ECF1592F2019089400C3C0C6 /* cleanup.cpp */,
 			);
 			path = CodeChef;
+			sourceTree = "<group>";
+		};
+		ECF1593520190F4800C3C0C6 /* easy */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1592D2018FD3C00C3C0C6 /* cielab.cpp */,
+				ECF1592F2019089400C3C0C6 /* cleanup.cpp */,
+				ECF1593120190F0400C3C0C6 /* johny.cpp */,
+				ECF1593320190F3500C3C0C6 /* horses.cpp */,
+				ECF159362019136B00C3C0C6 /* conflip.cpp */,
+			);
+			path = easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +144,10 @@
 			files = (
 				ECF159272018FD1000C3C0C6 /* main.cpp in Sources */,
 				ECF159302019089400C3C0C6 /* cleanup.cpp in Sources */,
+				ECF1593220190F0400C3C0C6 /* johny.cpp in Sources */,
+				ECF1593420190F3500C3C0C6 /* horses.cpp in Sources */,
 				ECF1592E2018FD3C00C3C0C6 /* cielab.cpp in Sources */,
+				ECF159372019136B00C3C0C6 /* conflip.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

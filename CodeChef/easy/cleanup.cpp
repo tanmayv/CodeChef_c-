@@ -19,7 +19,7 @@ bool contains(typename vector<T>::iterator begin,typename vector<T>::iterator en
     return (std::find(begin, end, x) != end);
 }
 
-int main(int argc, const char * argv[]) {
+int main_cleanup(int argc, const char * argv[]) {
     
     int cases;
     int n,m;
