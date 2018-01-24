@@ -9,51 +9,53 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <sstream>
 
 using namespace std;
-
-
-template<typename T>
-bool contains(typename vector<T>::iterator begin,typename vector<T>::iterator end,T x){
-    return (std::find(begin, end, x) != end);
+// Subset sum problem : Dynamic Problem
+// Family : Knapsack Problem
+bool ssp(const vector<int>& v, const int& N) {
+    
+    vector<vector<int>> m( v.size() + 1 /* 1-based */,
+                          vector<int>(N + 1 /* 1-based */, 0) );
+    
+    for (int i = 1; i <= v.size(); ++i) { // For each subset of elements
+        for (int b = 1; b <= N; ++b) { // For each subcapacity
+            int opt1 = m[i - 1][b];
+            int opt2 = -1;
+            if (b - v[i - 1] >= 0) { // No caching to keep this readable
+                opt2 = m[i - 1][b - v[i - 1]] + v[i - 1];
+                if (opt2 > b)
+                    opt2 = -1; // Not allowed
+            }
+            m[i][b] = max(opt1, opt2);
+        }
+    }
+    
+    return (m[v.size()][N] == N);
 }
 
 int main(int argc, const char * argv[]) {
- 
     int cases;
-    int n,m;
-    
     
     cin >> cases;
+    
     while(cases-- > 0){
-        ostringstream oss;
-        cin >> n >> m;
-        vector<int> completedJobs;
+        vector<int> notes;
+        int walletSize, amountAsked;
+        cin >> walletSize >> amountAsked;
         int input;
-        for(int i = 0; i < m; i++){
+        for(int i = 0; i < walletSize; i++){
             cin >> input;
-            completedJobs.push_back(input);
+            notes.push_back(input);
         }
-        bool forChef = true;
         
-        for(int i = 1; i <= n; i++){
-            if(contains<int>(completedJobs.begin(), completedJobs.end(), i)){
-                continue;
-            }
-            
-            if(forChef){
-                cout <<i << " ";
-            }else{
-                oss << i << " ";
-            }
-            forChef = !forChef;
-            
+        if(ssp(notes, amountAsked)){
+            cout << "Yes" << endl;
+        } else{
+            cout << "No" << endl;
         }
-        cout <<endl <<  oss.str() << endl;
     }
-    
-    
     return 0;
 }
+
 

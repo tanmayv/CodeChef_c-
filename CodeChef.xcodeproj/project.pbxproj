@@ -13,6 +13,7 @@
 		ECF1593220190F0400C3C0C6 /* johny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1593120190F0400C3C0C6 /* johny.cpp */; };
 		ECF1593420190F3500C3C0C6 /* horses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1593320190F3500C3C0C6 /* horses.cpp */; };
 		ECF159372019136B00C3C0C6 /* conflip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF159362019136B00C3C0C6 /* conflip.cpp */; };
+		ECF159392019193600C3C0C6 /* marcha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF159382019193600C3C0C6 /* marcha1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		ECF1593120190F0400C3C0C6 /* johny.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = johny.cpp; sourceTree = "<group>"; };
 		ECF1593320190F3500C3C0C6 /* horses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = horses.cpp; sourceTree = "<group>"; };
 		ECF159362019136B00C3C0C6 /* conflip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = conflip.cpp; sourceTree = "<group>"; };
+		ECF159382019193600C3C0C6 /* marcha1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = marcha1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				ECF1593120190F0400C3C0C6 /* johny.cpp */,
 				ECF1593320190F3500C3C0C6 /* horses.cpp */,
 				ECF159362019136B00C3C0C6 /* conflip.cpp */,
+				ECF159382019193600C3C0C6 /* marcha1.cpp */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				ECF1593220190F0400C3C0C6 /* johny.cpp in Sources */,
 				ECF1593420190F3500C3C0C6 /* horses.cpp in Sources */,
 				ECF1592E2018FD3C00C3C0C6 /* cielab.cpp in Sources */,
+				ECF159392019193600C3C0C6 /* marcha1.cpp in Sources */,
 				ECF159372019136B00C3C0C6 /* conflip.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

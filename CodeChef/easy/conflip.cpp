@@ -13,7 +13,7 @@
 using namespace std;
 
 
-int main_conflip(int argc, const char * argv[]) {
+int main_confilp(int argc, const char * argv[]) {
     int cases;
     
     cin >> cases;
