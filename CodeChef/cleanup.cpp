@@ -20,7 +20,7 @@ bool contains(typename vector<T>::iterator begin,typename vector<T>::iterator en
 }
 
 int main(int argc, const char * argv[]) {
- 
+    
     int cases;
     int n,m;
     
@@ -56,4 +56,5 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+
 
