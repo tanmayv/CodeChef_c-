@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3C9AE72019E9820034BDBA /* lapin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC3C9AE62019E9820034BDBA /* lapin.cpp */; };
+		EC3C9AE92019EEAE0034BDBA /* nukes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC3C9AE82019EEAE0034BDBA /* nukes.cpp */; };
+		EC3C9AEB2019F18F0034BDBA /* carvans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC3C9AEA2019F18F0034BDBA /* carvans.cpp */; };
+		EC3C9AED2019F8450034BDBA /* buyin2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC3C9AEC2019F8450034BDBA /* buyin2.cpp */; };
+		EC3C9AEF2019F9470034BDBA /* easyprob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC3C9AEE2019F9470034BDBA /* easyprob.cpp */; };
+		ECC35A95202841DD0018CC84 /* stones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECC35A94202841DD0018CC84 /* stones.cpp */; };
 		ECF159272018FD1000C3C0C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF159262018FD1000C3C0C6 /* main.cpp */; };
 		ECF1592E2018FD3C00C3C0C6 /* cielab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1592D2018FD3C00C3C0C6 /* cielab.cpp */; };
 		ECF159302019089400C3C0C6 /* cleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF1592F2019089400C3C0C6 /* cleanup.cpp */; };
@@ -29,6 +35,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC3C9AE62019E9820034BDBA /* lapin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lapin.cpp; sourceTree = "<group>"; };
+		EC3C9AE82019EEAE0034BDBA /* nukes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nukes.cpp; sourceTree = "<group>"; };
+		EC3C9AEA2019F18F0034BDBA /* carvans.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = carvans.cpp; sourceTree = "<group>"; };
+		EC3C9AEC2019F8450034BDBA /* buyin2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = buyin2.cpp; sourceTree = "<group>"; };
+		EC3C9AEE2019F9470034BDBA /* easyprob.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = easyprob.cpp; sourceTree = "<group>"; };
+		ECC35A94202841DD0018CC84 /* stones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stones.cpp; sourceTree = "<group>"; };
 		ECF159232018FD1000C3C0C6 /* CodeChef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeChef; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF159262018FD1000C3C0C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ECF1592D2018FD3C00C3C0C6 /* cielab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cielab.cpp; sourceTree = "<group>"; };
@@ -84,6 +96,12 @@
 				ECF1593320190F3500C3C0C6 /* horses.cpp */,
 				ECF159362019136B00C3C0C6 /* conflip.cpp */,
 				ECF159382019193600C3C0C6 /* marcha1.cpp */,
+				EC3C9AE62019E9820034BDBA /* lapin.cpp */,
+				EC3C9AE82019EEAE0034BDBA /* nukes.cpp */,
+				EC3C9AEA2019F18F0034BDBA /* carvans.cpp */,
+				EC3C9AEC2019F8450034BDBA /* buyin2.cpp */,
+				EC3C9AEE2019F9470034BDBA /* easyprob.cpp */,
+				ECC35A94202841DD0018CC84 /* stones.cpp */,
 			);
 			path = easy;
 			sourceTree = "<group>";
@@ -145,12 +163,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3C9AE92019EEAE0034BDBA /* nukes.cpp in Sources */,
 				ECF159272018FD1000C3C0C6 /* main.cpp in Sources */,
+				EC3C9AEF2019F9470034BDBA /* easyprob.cpp in Sources */,
+				ECC35A95202841DD0018CC84 /* stones.cpp in Sources */,
+				EC3C9AED2019F8450034BDBA /* buyin2.cpp in Sources */,
 				ECF159302019089400C3C0C6 /* cleanup.cpp in Sources */,
 				ECF1593220190F0400C3C0C6 /* johny.cpp in Sources */,
 				ECF1593420190F3500C3C0C6 /* horses.cpp in Sources */,
 				ECF1592E2018FD3C00C3C0C6 /* cielab.cpp in Sources */,
 				ECF159392019193600C3C0C6 /* marcha1.cpp in Sources */,
+				EC3C9AE72019E9820034BDBA /* lapin.cpp in Sources */,
+				EC3C9AEB2019F18F0034BDBA /* carvans.cpp in Sources */,
 				ECF159372019136B00C3C0C6 /* conflip.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

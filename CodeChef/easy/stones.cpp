@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main_stones(int argc, const char * argv[]) {
     int cases;
     cin >> cases;
     
@@ -38,6 +38,7 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
 
 
 
